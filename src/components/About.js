@@ -19,7 +19,7 @@ const About = ({ darkMode, setDarkMode }) => {
           </li>
           <li>
             <a
-              href=''
+              href='https://drive.google.com/file/d/1O4VpPRe_nbqoPavDK2IHVddTfChDbkOX/view?usp=sharing'
               target='_blank'
               className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 cursor-pointer'
             >
