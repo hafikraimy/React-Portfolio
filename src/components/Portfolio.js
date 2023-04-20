@@ -10,6 +10,68 @@ const Portfolio = () => {
         {/* 1st project */}
         <div class='basis-1/3 flex-1 rounded overflow-hidden shadow-lg dark:bg-white '>
           <a
+            href='https://react-portfolio-amber-phi.vercel.app/'
+            target='_blank'
+          >
+            <img
+              className='w-full hover:scale-105 transition duration-300'
+              src='/portfolio.png'
+              alt='Portfolio'
+            />
+          </a>
+          <div class='px-6 py-4'>
+            <div class='font-bold text-xl mb-2'>Portfolio Project</div>
+            <p class='text-gray-700 text-base'>
+              A Portfolio projects build with Nextjs and tailwind css. It showcase some of my best collections of projects done in the past. 
+            </p>
+          </div>
+          <div class='px-6 pt-4 pb-2'>
+            <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+              #nextjs
+            </span>
+            <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+              #tailwindcss
+            </span>
+            
+          </div>
+        </div>
+        {/* 2nd project */}
+        <div class='basis-1/3 flex-1 rounded overflow-hidden shadow-lg dark:bg-white '>
+          <a href='https://mern-job-dashboard.onrender.com' target='_blank'>
+            <img
+              className='w-full hover:scale-105 transition duration-300'
+              src='/mern-job-dashboard.png'
+              alt='MERN Job Dashboard'
+            />
+          </a>
+          <div class='px-6 py-4'>
+            <div class='font-bold text-xl mb-2'>MERN Job Dashboard</div>
+            <p class='text-gray-700 text-base'>
+              A full-stack Job Dashboard apps built with MERN stack and cookies auth. User can register and login, edit profile, add 
+              jobs, edit jobs, delete jobs and view jobs stats. 
+            </p>
+          </div>
+          <div class='px-6 pt-4 pb-2'>
+            <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+              #reactjs
+            </span>
+            <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+              #nodejs
+            </span>
+            <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+              #express
+            </span>
+            <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+              #cookies
+            </span>
+            <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+              #styledcomponent
+            </span>
+          </div>
+        </div>
+        {/* 3rd project */}
+        <div class='basis-1/3 flex-1 rounded overflow-hidden shadow-lg dark:bg-white '>
+          <a
             href='https://lottery-game-chainlink-vrf-topaz.vercel.app'
             target='_blank'
           >
@@ -41,7 +103,7 @@ const Portfolio = () => {
             </span>
           </div>
         </div>
-        {/* 2nd project */}
+        {/* 4th project */}
         <div class='basis-1/3 flex-1 rounded overflow-hidden shadow-lg dark:bg-white '>
           <a href='https://defi-exchange-dun.vercel.app' target='_blank'>
             <img
@@ -70,7 +132,7 @@ const Portfolio = () => {
             </span>
           </div>
         </div>
-        {/* 3rd project */}
+        {/* 5th project */}
         <div class='basis-1/3 flex-1 rounded overflow-hidden shadow-lg dark:bg-white '>
           <a href='https://dao-cryptodevs-murex.vercel.app' target='_blank'>
             <img
@@ -98,7 +160,7 @@ const Portfolio = () => {
             </span>
           </div>
         </div>
-        {/* 4th project */}
+        {/* 6th project */}
         <div class='basis-1/3 flex-1 rounded overflow-hidden shadow-lg dark:bg-white '>
           <a
             href='https://initial-coin-offering-ten.vercel.app'
@@ -130,7 +192,7 @@ const Portfolio = () => {
             </span>
           </div>
         </div>
-        {/* 5th project */}
+        {/* 7th project */}
         <div class='basis-1/3 flex-1 rounded overflow-hidden shadow-lg dark:bg-white '>
           <a
             href='https://nft-collection-henna-seven.vercel.app'
@@ -145,8 +207,7 @@ const Portfolio = () => {
           <div class='px-6 py-4'>
             <div class='font-bold text-xl mb-2'>NFT Minting Page</div>
             <p class='text-gray-700 text-base'>
-              A DAO for CryptoDevs NFTs holder. Allow NFT holders to create and
-              vote on proposals for purchasing other NFT from an NFT Marketplace
+              An NFT Minting Page. Allow user to mint Crypto Devs NFT collections.  
             </p>
           </div>
           <div class='px-6 pt-4 pb-2'>
@@ -161,7 +222,7 @@ const Portfolio = () => {
             </span>
           </div>
         </div>
-        {/* 6th project */}
+        {/* 8th project */}
         <div class='basis-1/3 flex-1 rounded overflow-hidden shadow-lg dark:bg-white '>
           <a
             href='https://whitelist-dapp-delta-seven.vercel.app/'
@@ -169,7 +230,7 @@ const Portfolio = () => {
           >
             <img
               className='w-full hover:scale-105 transition duration-300'
-              src='/nft-whitelist.png'
+              src='/nft-collection.png'
               alt='NFT Whitelist'
             />
           </a>

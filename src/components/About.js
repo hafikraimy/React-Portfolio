@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const About = ({ darkMode, setDarkMode }) => {
   return (
-    <section className='min-h-screen px-10 lg:px-40 md:px-20'>
+    <section className='min-h-screen mb-10 px-10 lg:px-40 md:px-20'>
       <nav className='pt-8 mb-12 flex justify-between dark:text-white'>
         <h1></h1>
         <ul className='flex items-center'>
