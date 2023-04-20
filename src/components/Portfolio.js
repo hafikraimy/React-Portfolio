@@ -164,12 +164,12 @@ const Portfolio = () => {
         {/* 6th project */}
         <div class='basis-1/3 flex-1 rounded overflow-hidden shadow-lg dark:bg-white '>
           <a
-            href='hhttps://whitelist-dapp-delta-seven.vercel.app/'
+            href='https://whitelist-dapp-delta-seven.vercel.app/'
             target='_blank'
           >
             <img
               className='w-full hover:scale-105 transition duration-300'
-              src='/dao.png'
+              src='/nft-whitelist.png'
               alt='NFT Whitelist'
             />
           </a>
