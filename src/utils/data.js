@@ -1,7 +1,7 @@
 export const skills = [
   'JavaScript',
   'Solidity',
-  'Ethersjs',
+  'Hardhat',
   'Reactjs',
   'Nodejs',
   'C#',
